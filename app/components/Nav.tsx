@@ -7,7 +7,7 @@ import Link from "next/link"
 
 export default function Nav({user}: Session){
     return(
-        <nav className = "w-1/2 flex justify-between items-center py-8">
+        <nav className = "flex justify-between items-center py-8">
             <h1>Styled</h1>
             <ul className = "flex items-center gap-12">
                 {!user && (
